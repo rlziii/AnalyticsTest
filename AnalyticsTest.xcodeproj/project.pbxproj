@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				80D7681B267507A6003C5F93 /* App */,
-				80D7681A26750774003C5F93 /* App Files */,
 				80D7681F2675AE36003C5F93 /* Modifiers */,
 				80D768282675B9FD003C5F93 /* Other */,
 				80D7681C267507AF003C5F93 /* Views */,
@@ -71,19 +70,12 @@
 			path = AnalyticsTest;
 			sourceTree = "<group>";
 		};
-		80D7681A26750774003C5F93 /* App Files */ = {
-			isa = PBXGroup;
-			children = (
-				80D7680D26750679003C5F93 /* Assets.xcassets */,
-				80D7681226750679003C5F93 /* Info.plist */,
-			);
-			path = "App Files";
-			sourceTree = "<group>";
-		};
 		80D7681B267507A6003C5F93 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				80D7680926750676003C5F93 /* AnalyticsTestApp.swift */,
+				80D7680D26750679003C5F93 /* Assets.xcassets */,
+				80D7681226750679003C5F93 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
