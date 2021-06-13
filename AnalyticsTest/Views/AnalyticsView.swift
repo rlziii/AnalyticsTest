@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct AnalyticsView<Content: View>: View {
-    let id: Int
+struct AnalyticsView<Content: View, ID: Hashable>: View {
+    let id: ID
     @ViewBuilder let content: Content
 
     var body: some View {

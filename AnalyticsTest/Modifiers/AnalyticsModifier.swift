@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct AnalyticsModifier: ViewModifier {
-    let id: Int
+struct AnalyticsModifier<ID: Hashable>: ViewModifier {
+    let id: ID
     let analyticsOptions: AnalyticsOptions
 
     func body(content: Content) -> some View {
@@ -28,7 +28,7 @@ struct AnalyticsModifier: ViewModifier {
 }
 
 extension View {
-    func analytics(with id: Int, tracking analyticsOptions: AnalyticsOptions = .all) -> some View {
+    func analytics<ID: Hashable>(with id: ID, tracking analyticsOptions: AnalyticsOptions = .all) -> some View {
         modifier(AnalyticsModifier(id: id, analyticsOptions: analyticsOptions))
     }
 }
