@@ -12,10 +12,18 @@ struct AnalyticsView<Content: View, ID: Hashable>: View {
     }
 
     private func shown() {
+        guard analyticsOptions.contains(.shown) else {
+            return
+        }
+
         print("SHOWN: \(id)")
     }
 
     private func tapped() {
+        guard analyticsOptions.contains(.tapped) else {
+            return
+        }
+
         print("TAPPED: \(id)")
     }
 }
