@@ -10,7 +10,12 @@
 		80D7680A26750676003C5F93 /* AnalyticsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7680926750676003C5F93 /* AnalyticsTestApp.swift */; };
 		80D7680C26750676003C5F93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7680B26750676003C5F93 /* ContentView.swift */; };
 		80D7680E26750679003C5F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7680D26750679003C5F93 /* Assets.xcassets */; };
-		80D7681126750679003C5F93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7681026750679003C5F93 /* Preview Assets.xcassets */; };
+		80D76819267506A0003C5F93 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D76818267506A0003C5F93 /* AnalyticsView.swift */; };
+		80D7681E2675AD80003C5F93 /* AnalyticsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7681D2675AD80003C5F93 /* AnalyticsModifier.swift */; };
+		80D768212675AEA0003C5F93 /* ListUsingAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D768202675AEA0003C5F93 /* ListUsingAnalyticsView.swift */; };
+		80D768232675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D768222675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift */; };
+		80D768252675AF88003C5F93 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D768242675AF88003C5F93 /* RowView.swift */; };
+		80D768272675B5A6003C5F93 /* AnalyticsOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D768262675B5A6003C5F93 /* AnalyticsOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +23,13 @@
 		80D7680926750676003C5F93 /* AnalyticsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTestApp.swift; sourceTree = "<group>"; };
 		80D7680B26750676003C5F93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80D7680D26750679003C5F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80D7681026750679003C5F93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80D7681226750679003C5F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D76818267506A0003C5F93 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		80D7681D2675AD80003C5F93 /* AnalyticsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsModifier.swift; sourceTree = "<group>"; };
+		80D768202675AEA0003C5F93 /* ListUsingAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsingAnalyticsView.swift; sourceTree = "<group>"; };
+		80D768222675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsingAnalyticsModifier.swift; sourceTree = "<group>"; };
+		80D768242675AF88003C5F93 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		80D768262675B5A6003C5F93 /* AnalyticsOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +62,50 @@
 		80D7680826750676003C5F93 /* AnalyticsTest */ = {
 			isa = PBXGroup;
 			children = (
-				80D7680926750676003C5F93 /* AnalyticsTestApp.swift */,
-				80D7680B26750676003C5F93 /* ContentView.swift */,
-				80D7680D26750679003C5F93 /* Assets.xcassets */,
-				80D7681226750679003C5F93 /* Info.plist */,
-				80D7680F26750679003C5F93 /* Preview Content */,
+				80D7681B267507A6003C5F93 /* App */,
+				80D7681A26750774003C5F93 /* App Files */,
+				80D7681F2675AE36003C5F93 /* Modifiers */,
+				80D7681C267507AF003C5F93 /* Views */,
 			);
 			path = AnalyticsTest;
 			sourceTree = "<group>";
 		};
-		80D7680F26750679003C5F93 /* Preview Content */ = {
+		80D7681A26750774003C5F93 /* App Files */ = {
 			isa = PBXGroup;
 			children = (
-				80D7681026750679003C5F93 /* Preview Assets.xcassets */,
+				80D7680D26750679003C5F93 /* Assets.xcassets */,
+				80D7681226750679003C5F93 /* Info.plist */,
 			);
-			path = "Preview Content";
+			path = "App Files";
+			sourceTree = "<group>";
+		};
+		80D7681B267507A6003C5F93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80D7680926750676003C5F93 /* AnalyticsTestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80D7681C267507AF003C5F93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80D76818267506A0003C5F93 /* AnalyticsView.swift */,
+				80D7680B26750676003C5F93 /* ContentView.swift */,
+				80D768222675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift */,
+				80D768202675AEA0003C5F93 /* ListUsingAnalyticsView.swift */,
+				80D768242675AF88003C5F93 /* RowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80D7681F2675AE36003C5F93 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				80D7681D2675AD80003C5F93 /* AnalyticsModifier.swift */,
+				80D768262675B5A6003C5F93 /* AnalyticsOptions.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D7681126750679003C5F93 /* Preview Assets.xcassets in Resources */,
 				80D7680E26750679003C5F93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D76819267506A0003C5F93 /* AnalyticsView.swift in Sources */,
+				80D7681E2675AD80003C5F93 /* AnalyticsModifier.swift in Sources */,
+				80D768252675AF88003C5F93 /* RowView.swift in Sources */,
+				80D768212675AEA0003C5F93 /* ListUsingAnalyticsView.swift in Sources */,
 				80D7680C26750676003C5F93 /* ContentView.swift in Sources */,
+				80D768272675B5A6003C5F93 /* AnalyticsOptions.swift in Sources */,
+				80D768232675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift in Sources */,
 				80D7680A26750676003C5F93 /* AnalyticsTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,10 +312,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AnalyticsTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78CW4BPHYV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AnalyticsTest/Info.plist;
+				INFOPLIST_FILE = "AnalyticsTest/App Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +334,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AnalyticsTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78CW4BPHYV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AnalyticsTest/Info.plist;
+				INFOPLIST_FILE = "AnalyticsTest/App Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
