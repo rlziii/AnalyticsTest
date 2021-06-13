@@ -65,6 +65,7 @@
 				80D7681B267507A6003C5F93 /* App */,
 				80D7681A26750774003C5F93 /* App Files */,
 				80D7681F2675AE36003C5F93 /* Modifiers */,
+				80D768282675B9FD003C5F93 /* Other */,
 				80D7681C267507AF003C5F93 /* Views */,
 			);
 			path = AnalyticsTest;
@@ -103,9 +104,16 @@
 			isa = PBXGroup;
 			children = (
 				80D7681D2675AD80003C5F93 /* AnalyticsModifier.swift */,
-				80D768262675B5A6003C5F93 /* AnalyticsOptions.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		80D768282675B9FD003C5F93 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				80D768262675B5A6003C5F93 /* AnalyticsOptions.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
