@@ -12,6 +12,10 @@ struct ContentView: View {
                     "List using AnalyticsModifier",
                     destination: ListUsingAnalyticsModifier()
                 )
+                NavigationLink(
+                    "Buttons View",
+                    destination: ButtonsView()
+                )
             }
         }
     }
