@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 10) {
                 NavigationLink(
                     "List using AnalyticsView",
                     destination: ListUsingAnalyticsView()
