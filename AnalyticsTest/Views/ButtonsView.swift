@@ -1,10 +1,3 @@
-//
-//  ButtonsView.swift
-//  AnalyticsTest
-//
-//  Created by Richard Zarth on 6/16/21.
-//
-
 import SwiftUI
 
 struct ButtonsView: View {
