@@ -13,6 +13,10 @@ struct ContentView: View {
                     destination: ListUsingAnalyticsModifier()
                 )
                 NavigationLink(
+                    "ScrollView using GeometryAnalyticsModifier",
+                    destination: ScrollViewUsingGeometryAnalyticsModifier()
+                )
+                NavigationLink(
                     "Buttons View",
                     destination: ButtonsView()
                 )

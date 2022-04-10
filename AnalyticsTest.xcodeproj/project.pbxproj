@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C7EDA828027D34000584BF /* GeometryAnalyticsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7EDA728027D34000584BF /* GeometryAnalyticsModifier.swift */; };
+		80C7EDAA280280F5000584BF /* ScrollViewUsingGeometryAnalyticsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7EDA9280280F5000584BF /* ScrollViewUsingGeometryAnalyticsModifier.swift */; };
 		80D7680A26750676003C5F93 /* AnalyticsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7680926750676003C5F93 /* AnalyticsTestApp.swift */; };
 		80D7680C26750676003C5F93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7680B26750676003C5F93 /* ContentView.swift */; };
 		80D7680E26750679003C5F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7680D26750679003C5F93 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80C7EDA728027D34000584BF /* GeometryAnalyticsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryAnalyticsModifier.swift; sourceTree = "<group>"; };
+		80C7EDA9280280F5000584BF /* ScrollViewUsingGeometryAnalyticsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUsingGeometryAnalyticsModifier.swift; sourceTree = "<group>"; };
 		80D7680626750676003C5F93 /* AnalyticsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D7680926750676003C5F93 /* AnalyticsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTestApp.swift; sourceTree = "<group>"; };
 		80D7680B26750676003C5F93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				80D768222675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift */,
 				80D768202675AEA0003C5F93 /* ListUsingAnalyticsView.swift */,
 				80D768242675AF88003C5F93 /* RowView.swift */,
+				80C7EDA9280280F5000584BF /* ScrollViewUsingGeometryAnalyticsModifier.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				80D7681D2675AD80003C5F93 /* AnalyticsModifier.swift */,
+				80C7EDA728027D34000584BF /* GeometryAnalyticsModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -182,11 +188,13 @@
 				80D76819267506A0003C5F93 /* AnalyticsView.swift in Sources */,
 				80D7681E2675AD80003C5F93 /* AnalyticsModifier.swift in Sources */,
 				80D768252675AF88003C5F93 /* RowView.swift in Sources */,
+				80C7EDA828027D34000584BF /* GeometryAnalyticsModifier.swift in Sources */,
 				80D768212675AEA0003C5F93 /* ListUsingAnalyticsView.swift in Sources */,
 				80D7680C26750676003C5F93 /* ContentView.swift in Sources */,
 				80D768272675B5A6003C5F93 /* AnalyticsOptions.swift in Sources */,
 				80D7685C267A71F6003C5F93 /* ButtonsView.swift in Sources */,
 				80D768232675AEB3003C5F93 /* ListUsingAnalyticsModifier.swift in Sources */,
+				80C7EDAA280280F5000584BF /* ScrollViewUsingGeometryAnalyticsModifier.swift in Sources */,
 				80D7680A26750676003C5F93 /* AnalyticsTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
